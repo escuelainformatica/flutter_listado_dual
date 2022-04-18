@@ -8,12 +8,8 @@ void main() {
 
 class AppEjercicioDual extends StatelessWidget {
   const AppEjercicioDual({Key? key}) : super(key: key);
-
-
-
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return new CupertinoApp(
       home:PaginaHome() ,
     );
